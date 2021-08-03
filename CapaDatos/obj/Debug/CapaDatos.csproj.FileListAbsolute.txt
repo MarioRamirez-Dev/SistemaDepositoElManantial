@@ -1,0 +1,7 @@
+C:\Users\mario\OneDrive\Documents\Sistema Deposito Manantial\Sistema_Deposito_Manantial\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\mario\OneDrive\Documents\Sistema Deposito Manantial\Sistema_Deposito_Manantial\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\mario\OneDrive\Documents\Sistema Deposito Manantial\Sistema_Deposito_Manantial\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\mario\OneDrive\Documents\Sistema Deposito Manantial\Sistema_Deposito_Manantial\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\mario\OneDrive\Documents\Sistema Deposito Manantial\Sistema_Deposito_Manantial\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\mario\OneDrive\Documents\Sistema Deposito Manantial\Sistema_Deposito_Manantial\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\mario\OneDrive\Documents\Sistema Deposito Manantial\Sistema_Deposito_Manantial\CapaDatos\obj\Debug\CapaDatos.pdb
