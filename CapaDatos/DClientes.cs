@@ -7,10 +7,8 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Globalization;
 
-namespace CapaDatos
-{
-    public class DClientes
-    {
+namespace CapaDatos{
+    public class DClientes{
         //Variables
         private int idcliente;
         private string nombrecliente;

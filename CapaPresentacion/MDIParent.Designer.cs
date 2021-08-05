@@ -53,7 +53,9 @@
             // 
             // menuStrip
             // 
+            this.menuStrip.Dock = System.Windows.Forms.DockStyle.Left;
             this.menuStrip.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.depósitoElManantialToolStripMenuItem,
             this.productosToolStripMenuItem,
@@ -63,7 +65,7 @@
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.menuStrip.Size = new System.Drawing.Size(737, 25);
+            this.menuStrip.Size = new System.Drawing.Size(210, 558);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
             // 
@@ -74,14 +76,14 @@
             this.depósitoElManantialToolStripMenuItem.Image = global::CapaPresentacion.Properties.Resources.logoDep;
             this.depósitoElManantialToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.depósitoElManantialToolStripMenuItem.Name = "depósitoElManantialToolStripMenuItem";
-            this.depósitoElManantialToolStripMenuItem.Size = new System.Drawing.Size(167, 21);
+            this.depósitoElManantialToolStripMenuItem.Size = new System.Drawing.Size(195, 24);
             this.depósitoElManantialToolStripMenuItem.Text = "Depósito el Manantial";
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Image = global::CapaPresentacion.Properties.Resources.abort_146072_960_720;
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(101, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(120, 26);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -93,14 +95,14 @@
             this.productosToolStripMenuItem.Image = global::CapaPresentacion.Properties.Resources.productos;
             this.productosToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.productosToolStripMenuItem.Name = "productosToolStripMenuItem";
-            this.productosToolStripMenuItem.Size = new System.Drawing.Size(96, 21);
+            this.productosToolStripMenuItem.Size = new System.Drawing.Size(195, 24);
             this.productosToolStripMenuItem.Text = "Productos";
             // 
             // mnuMantenimientoProductos
             // 
             this.mnuMantenimientoProductos.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.mnuMantenimientoProductos.Name = "mnuMantenimientoProductos";
-            this.mnuMantenimientoProductos.Size = new System.Drawing.Size(249, 22);
+            this.mnuMantenimientoProductos.Size = new System.Drawing.Size(305, 26);
             this.mnuMantenimientoProductos.Text = "Mantenimiento de Productos";
             this.mnuMantenimientoProductos.Click += new System.EventHandler(this.mnuMantenimientoProductos_Click);
             // 
@@ -111,14 +113,14 @@
             this.ventasToolStripMenuItem.Image = global::CapaPresentacion.Properties.Resources.ventas;
             this.ventasToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
-            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(78, 21);
+            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(195, 24);
             this.ventasToolStripMenuItem.Text = "Ventas";
             // 
             // registroDeVentasToolStripMenuItem
             // 
             this.registroDeVentasToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.registroDeVentasToolStripMenuItem.Name = "registroDeVentasToolStripMenuItem";
-            this.registroDeVentasToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.registroDeVentasToolStripMenuItem.Size = new System.Drawing.Size(229, 26);
             this.registroDeVentasToolStripMenuItem.Text = "Registro de Ventas";
             this.registroDeVentasToolStripMenuItem.Click += new System.EventHandler(this.registroDeVentasToolStripMenuItem_Click);
             // 
@@ -129,14 +131,14 @@
             this.clientesToolStripMenuItem.Image = global::CapaPresentacion.Properties.Resources.clientes;
             this.clientesToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(84, 21);
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(195, 24);
             this.clientesToolStripMenuItem.Text = "Clientes";
             // 
             // mantenimientoDeClientesToolStripMenuItem
             // 
             this.mantenimientoDeClientesToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.mantenimientoDeClientesToolStripMenuItem.Name = "mantenimientoDeClientesToolStripMenuItem";
-            this.mantenimientoDeClientesToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.mantenimientoDeClientesToolStripMenuItem.Size = new System.Drawing.Size(289, 26);
             this.mantenimientoDeClientesToolStripMenuItem.Text = "Mantenimiento de Clientes";
             this.mantenimientoDeClientesToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoDeClientesToolStripMenuItem_Click);
             // 
@@ -147,32 +149,33 @@
             this.reportesToolStripMenuItem.Image = global::CapaPresentacion.Properties.Resources.Reportes;
             this.reportesToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
-            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(89, 21);
+            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(195, 24);
             this.reportesToolStripMenuItem.Text = "Reportes";
             // 
             // reporteDelDiaToolStripMenuItem
             // 
             this.reporteDelDiaToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.reporteDelDiaToolStripMenuItem.Name = "reporteDelDiaToolStripMenuItem";
-            this.reporteDelDiaToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.reporteDelDiaToolStripMenuItem.Size = new System.Drawing.Size(230, 26);
             this.reporteDelDiaToolStripMenuItem.Text = "Reporte por Fecha";
             this.reporteDelDiaToolStripMenuItem.Click += new System.EventHandler(this.reporteDelDiaToolStripMenuItem_Click);
             // 
             // statusStrip
             // 
+            this.statusStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel});
-            this.statusStrip.Location = new System.Drawing.Point(0, 536);
+            this.statusStrip.Location = new System.Drawing.Point(210, 532);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
-            this.statusStrip.Size = new System.Drawing.Size(737, 22);
+            this.statusStrip.Size = new System.Drawing.Size(848, 26);
             this.statusStrip.TabIndex = 2;
             this.statusStrip.Text = "StatusStrip";
             // 
             // toolStripStatusLabel
             // 
             this.toolStripStatusLabel.Name = "toolStripStatusLabel";
-            this.toolStripStatusLabel.Size = new System.Drawing.Size(166, 17);
+            this.toolStripStatusLabel.Size = new System.Drawing.Size(212, 20);
             this.toolStripStatusLabel.Text = "Sistema Depósito el Manantial";
             // 
             // timer1
@@ -187,9 +190,9 @@
             this.lblHora.AutoSize = true;
             this.lblHora.BackColor = System.Drawing.Color.White;
             this.lblHora.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHora.Location = new System.Drawing.Point(597, 4);
+            this.lblHora.Location = new System.Drawing.Point(918, 4);
             this.lblHora.Name = "lblHora";
-            this.lblHora.Size = new System.Drawing.Size(0, 16);
+            this.lblHora.Size = new System.Drawing.Size(0, 19);
             this.lblHora.TabIndex = 6;
             this.lblHora.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -199,16 +202,16 @@
             this.PanelContenedor.BackgroundImage = global::CapaPresentacion.Properties.Resources.Deposito_Fondo_def;
             this.PanelContenedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PanelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelContenedor.Location = new System.Drawing.Point(0, 25);
+            this.PanelContenedor.Location = new System.Drawing.Point(210, 0);
             this.PanelContenedor.Name = "PanelContenedor";
-            this.PanelContenedor.Size = new System.Drawing.Size(737, 511);
+            this.PanelContenedor.Size = new System.Drawing.Size(848, 532);
             this.PanelContenedor.TabIndex = 4;
             // 
             // MDIParent
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(737, 558);
+            this.ClientSize = new System.Drawing.Size(1058, 558);
             this.Controls.Add(this.lblHora);
             this.Controls.Add(this.PanelContenedor);
             this.Controls.Add(this.statusStrip);
