@@ -53,7 +53,6 @@
             // 
             // menuStrip
             // 
-            this.menuStrip.Dock = System.Windows.Forms.DockStyle.Left;
             this.menuStrip.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -65,7 +64,7 @@
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.menuStrip.Size = new System.Drawing.Size(210, 558);
+            this.menuStrip.Size = new System.Drawing.Size(1323, 38);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
             // 
@@ -76,7 +75,7 @@
             this.depósitoElManantialToolStripMenuItem.Image = global::CapaPresentacion.Properties.Resources.logoDep;
             this.depósitoElManantialToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.depósitoElManantialToolStripMenuItem.Name = "depósitoElManantialToolStripMenuItem";
-            this.depósitoElManantialToolStripMenuItem.Size = new System.Drawing.Size(195, 24);
+            this.depósitoElManantialToolStripMenuItem.Size = new System.Drawing.Size(203, 34);
             this.depósitoElManantialToolStripMenuItem.Text = "Depósito el Manantial";
             // 
             // salirToolStripMenuItem
@@ -95,7 +94,7 @@
             this.productosToolStripMenuItem.Image = global::CapaPresentacion.Properties.Resources.productos;
             this.productosToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.productosToolStripMenuItem.Name = "productosToolStripMenuItem";
-            this.productosToolStripMenuItem.Size = new System.Drawing.Size(195, 24);
+            this.productosToolStripMenuItem.Size = new System.Drawing.Size(117, 34);
             this.productosToolStripMenuItem.Text = "Productos";
             // 
             // mnuMantenimientoProductos
@@ -113,7 +112,7 @@
             this.ventasToolStripMenuItem.Image = global::CapaPresentacion.Properties.Resources.ventas;
             this.ventasToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
-            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(195, 24);
+            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(94, 34);
             this.ventasToolStripMenuItem.Text = "Ventas";
             // 
             // registroDeVentasToolStripMenuItem
@@ -131,7 +130,7 @@
             this.clientesToolStripMenuItem.Image = global::CapaPresentacion.Properties.Resources.clientes;
             this.clientesToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(195, 24);
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(101, 34);
             this.clientesToolStripMenuItem.Text = "Clientes";
             // 
             // mantenimientoDeClientesToolStripMenuItem
@@ -149,7 +148,7 @@
             this.reportesToolStripMenuItem.Image = global::CapaPresentacion.Properties.Resources.Reportes;
             this.reportesToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
-            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(195, 24);
+            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(108, 34);
             this.reportesToolStripMenuItem.Text = "Reportes";
             // 
             // reporteDelDiaToolStripMenuItem
@@ -165,10 +164,10 @@
             this.statusStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel});
-            this.statusStrip.Location = new System.Drawing.Point(210, 532);
+            this.statusStrip.Location = new System.Drawing.Point(0, 532);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
-            this.statusStrip.Size = new System.Drawing.Size(848, 26);
+            this.statusStrip.Size = new System.Drawing.Size(1058, 26);
             this.statusStrip.TabIndex = 2;
             this.statusStrip.Text = "StatusStrip";
             // 
@@ -199,13 +198,14 @@
             // PanelContenedor
             // 
             this.PanelContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(183)))), ((int)(((byte)(211)))));
-            this.PanelContenedor.BackgroundImage = global::CapaPresentacion.Properties.Resources.Deposito_Fondo_def;
+            this.PanelContenedor.BackgroundImage = global::CapaPresentacion.Properties.Resources.Deposito_Fondo1;
             this.PanelContenedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PanelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelContenedor.Location = new System.Drawing.Point(210, 0);
+            this.PanelContenedor.Location = new System.Drawing.Point(0, 48);
             this.PanelContenedor.Name = "PanelContenedor";
-            this.PanelContenedor.Size = new System.Drawing.Size(848, 532);
+            this.PanelContenedor.Size = new System.Drawing.Size(1323, 618);
             this.PanelContenedor.TabIndex = 4;
+            this.PanelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelContenedor_Paint);
             // 
             // MDIParent
             // 

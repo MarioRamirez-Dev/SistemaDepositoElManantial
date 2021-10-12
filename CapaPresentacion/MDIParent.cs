@@ -28,7 +28,6 @@ namespace CapaPresentacion
         {
             if (this.PanelContenedor.Controls.Count > 0)
             {
-
                 this.PanelContenedor.Controls.RemoveAt(0);
             }
             else
@@ -95,6 +94,11 @@ namespace CapaPresentacion
         private void MDIParent_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void PanelContenedor_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

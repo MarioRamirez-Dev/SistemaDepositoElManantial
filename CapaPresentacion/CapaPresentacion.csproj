@@ -167,6 +167,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\FrmRptFactura.resx">
       <DependentUpon>FrmRptFactura.cs</DependentUpon>
@@ -210,9 +211,6 @@
     <None Include="Resources\94-943592_icono-productos-y-servicios-graphic-design.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Deposito Fondo Ultimate.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\logoDep.png" />
   </ItemGroup>
   <ItemGroup>
@@ -225,12 +223,6 @@
     <None Include="Resources\montana-4k-full-hd-fondosdepantalla.top-12.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Deposito Fondo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Deposito Fondo 2.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Deposito Login.png" />
   </ItemGroup>
   <ItemGroup>
@@ -241,7 +233,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Deposito Login def.png" />
-    <None Include="Resources\Deposito Fondo def.png" />
+    <None Include="Resources\Deposito Fondo1.png" />
+    <None Include="Resources\Deposito Login1.png" />
+    <None Include="Resources\Deposito Login-GC.png" />
+    <Content Include="Resources\Deposito Fondo 2.png" />
+    <Content Include="Resources\Deposito Fondo def.png" />
+    <Content Include="Resources\Deposito Fondo Ultimate.png" />
+    <Content Include="Resources\Deposito Fondo.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

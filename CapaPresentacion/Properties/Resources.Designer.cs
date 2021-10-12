@@ -143,6 +143,16 @@ namespace CapaPresentacion.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Deposito_Fondo1 {
+            get {
+                object obj = ResourceManager.GetObject("Deposito Fondo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Deposito_Login {
             get {
                 object obj = ResourceManager.GetObject("Deposito Login", resourceCulture);
@@ -156,6 +166,26 @@ namespace CapaPresentacion.Properties {
         internal static System.Drawing.Bitmap Deposito_Login_def {
             get {
                 object obj = ResourceManager.GetObject("Deposito Login def", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Deposito_Login_GC {
+            get {
+                object obj = ResourceManager.GetObject("Deposito Login-GC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Deposito_Login1 {
+            get {
+                object obj = ResourceManager.GetObject("Deposito Login1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
